@@ -6,13 +6,14 @@ using namespace std;
 //VARIABLES//
 int trainingData[4][5] = {{1, -1, 1, -1, 1},{1, 1, 1, 1, 1},{1, 1, 1, -1, -1},{1, -1, -1, 1, -1}};
 int perceptrons[4] = {0, 0, 0, 0};
-float threshold = 0.0f;
+float threshold = -1.0f;
 float learningRate = 0.1f;
 //random initial weights for inputs//
 //float weight[4] = {rand()/float(RAND_MAX), rand()/float(RAND_MAX), rand()/float(RAND_MAX), rand()/float(RAND_MAX)};
 float weight[4] = {0.0f, 0.0f, 0.0f, 0.0f};
 
-int linearPerceptron(int x[])
+//Threshold function//
+int thresholdFunction(int x[])
 {
     if ((weight[0]*x[0]) + (weight[1]*x[1]) + (weight[2]*x[2]) + (weight[3]*x[3]) >  threshold)
     {
@@ -24,6 +25,21 @@ int linearPerceptron(int x[])
     }
 }
 
+//Activation function//
+int activationFunction(int x[])
+{
+    if ((weight[0]*x[0]) + (weight[1]*x[1]) + (weight[2]*x[2]) + (weight[3]*x[3]) >  0.0f)
+    {
+        return 1;
+    }
+    else
+    {
+        return -1;
+    }
+}
+
+
+
 int main()
 {
     int error = 4;
@@ -32,6 +48,9 @@ int main()
     while (error != 0)
     {
         error = 4;
+
+        iterations++;
+        cout << "---> Iteration: " << iterations << " <---\n" << endl;
 
         for (int k = 0; k < 4; k++)
         {
@@ -42,7 +61,7 @@ int main()
             }
 
             //get linear Perception//
-            perceptrons[k] = linearPerceptron(trainingData[k]);
+            perceptrons[k] = thresholdFunction(trainingData[k]);
 
         }
 
@@ -52,9 +71,6 @@ int main()
             if (perceptrons[i] == trainingData[i][4])
                 error--;
         }
-
-        //increment iterations//
-        iterations++;
 
         cout << endl;
         cout << "p 1: " << perceptrons[0] << endl;
