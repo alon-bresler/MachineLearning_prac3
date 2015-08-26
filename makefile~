@@ -1,0 +1,16 @@
+CC=g++
+CCFLAGS=-std=c++11
+LIBS=-lm
+
+Find_S: main.o
+		$(CC) $(CCFLAGS) main.o -o XOR $(LIBS)
+				
+main.o: main.cpp
+		$(CC) $(CCFLAGS) main.cpp -c
+	
+clean: 
+		@rm -f *.o
+		@rm -f XOR
+		
+install: 
+		@mv XOR -/bin
