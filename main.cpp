@@ -38,7 +38,20 @@ int activationFunction(int x[])
     }
 }
 
+void printData(int k)
+{
+    cout << " ~Training Data " << k << "~" << endl;
 
+    for (int i = 0; i < 4; i++)
+    {
+        cout << " Input " << i << " [weight" << i << "] = " << 
+        trainingData[k][i] << " [" << weight[i] << "]" << endl;
+    }
+
+    cout << "Expected output: " << trainingData[k][4] << endl;
+    cout << "Perceptron output: " << perceptrons[k] << endl << endl;
+    
+}
 
 int main()
 {
@@ -50,7 +63,7 @@ int main()
         error = 4;
 
         iterations++;
-        cout << "---> Iteration: " << iterations << " <---\n" << endl;
+        cout << "\n---> Iteration: " << iterations << " <---\n" << endl;
 
         for (int k = 0; k < 4; k++)
         {
@@ -61,7 +74,10 @@ int main()
             }
 
             //get linear Perception//
-            perceptrons[k] = thresholdFunction(trainingData[k]);
+            //perceptrons[k] = thresholdFunction(trainingData[k]);
+            perceptrons[k] = activationFunction(trainingData[k]);
+
+            printData(k);
 
         }
 
@@ -72,13 +88,7 @@ int main()
                 error--;
         }
 
-        cout << endl;
-        cout << "p 1: " << perceptrons[0] << endl;
-        cout << "p 2: " << perceptrons[1] << endl;
-        cout << "p 3: " << perceptrons[2] << endl;
-        cout << "p 4: " << perceptrons[3] << endl;
-        cout << "error: " << error << endl;
-        cout << endl;
+        
 
      }
 
