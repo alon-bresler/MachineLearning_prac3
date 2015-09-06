@@ -28,7 +28,7 @@ int thresholdFunction(int x[])
 //Activation function//
 int activationFunction(int x[])
 {
-    if ((weight[0]*x[0]) + (weight[1]*x[1]) + (weight[2]*x[2]) + (weight[3]*x[3]) >  0.0f)
+    if ((weight[0]*x[0]) + (weight[1]*x[1]) + (weight[2]*x[2]) + (weight[3]*x[3]) >  threshold)
     {
         return 1;
     }
