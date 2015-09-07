@@ -6,7 +6,8 @@ using namespace std;
 //VARIABLES//
 int trainingData[4][5] = {{1, -1, 1, -1, 1},{1, 1, 1, 1, 1},{1, 1, 1, -1, -1},{1, -1, -1, 1, -1}};
 int perceptrons[4] = {0, 0, 0, 0};
-float threshold = -1.0f;
+float perceptronsF[4] = {0.0f, 0.0f, 0.0f, 0.0f};
+float threshold = 0.0f;
 float learningRate = 0.1f;
 //random initial weights for inputs//
 //float weight[4] = {rand()/float(RAND_MAX), rand()/float(RAND_MAX), rand()/float(RAND_MAX), rand()/float(RAND_MAX)};
@@ -26,16 +27,9 @@ int thresholdFunction(int x[])
 }
 
 //Activation function//
-int activationFunction(int x[])
+float activationFunction(int x[])
 {
-    if ((weight[0]*x[0]) + (weight[1]*x[1]) + (weight[2]*x[2]) + (weight[3]*x[3]) >  threshold)
-    {
-        return 1;
-    }
-    else
-    {
-        return -1;
-    }
+   return (weight[0]*x[0]) + (weight[1]*x[1]) + (weight[2]*x[2]) + (weight[3]*x[3]);   
 }
 
 void printData(int k)
@@ -74,8 +68,8 @@ int main()
             }
 
             //get linear Perception//
-            //perceptrons[k] = thresholdFunction(trainingData[k]);
-            perceptrons[k] = activationFunction(trainingData[k]);
+            perceptrons[k] = thresholdFunction(trainingData[k]);
+            //perceptrons[k] = activationFunction(trainingData[k]);
 
             printData(k);
 
