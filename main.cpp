@@ -68,8 +68,8 @@ int main()
             }
 
             //get linear Perception//
-            perceptrons[k] = thresholdFunction(trainingData[k]);
-            //perceptrons[k] = activationFunction(trainingData[k]);
+            //perceptrons[k] = thresholdFunction(trainingData[k]);
+            perceptrons[k] = activationFunction(trainingData[k]);
 
             printData(k);
 

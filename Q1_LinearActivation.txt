@@ -1,0 +1,1086 @@
+---> Iteration: 1 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [0.1]
+ Input 1 [weight1] = -1 [-0.1]
+ Input 2 [weight2] = 1 [0.1]
+ Input 3 [weight3] = -1 [-0.1]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [0.2]
+ Input 1 [weight1] = 1 [0]
+ Input 2 [weight2] = 1 [0.2]
+ Input 3 [weight3] = 1 [0]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [0.1]
+ Input 1 [weight1] = 1 [-0.1]
+ Input 2 [weight2] = 1 [0.1]
+ Input 3 [weight3] = -1 [0.1]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [0]
+ Input 1 [weight1] = -1 [0]
+ Input 2 [weight2] = -1 [0.2]
+ Input 3 [weight3] = 1 [0]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 2 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [0.1]
+ Input 1 [weight1] = -1 [-0.1]
+ Input 2 [weight2] = 1 [0.3]
+ Input 3 [weight3] = -1 [-0.1]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [0.2]
+ Input 1 [weight1] = 1 [0]
+ Input 2 [weight2] = 1 [0.4]
+ Input 3 [weight3] = 1 [0]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [0.1]
+ Input 1 [weight1] = 1 [-0.1]
+ Input 2 [weight2] = 1 [0.3]
+ Input 3 [weight3] = -1 [0.1]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [0]
+ Input 1 [weight1] = -1 [0]
+ Input 2 [weight2] = -1 [0.4]
+ Input 3 [weight3] = 1 [0]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 3 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [0.1]
+ Input 1 [weight1] = -1 [-0.1]
+ Input 2 [weight2] = 1 [0.5]
+ Input 3 [weight3] = -1 [-0.1]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [0.2]
+ Input 1 [weight1] = 1 [0]
+ Input 2 [weight2] = 1 [0.6]
+ Input 3 [weight3] = 1 [0]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [0.1]
+ Input 1 [weight1] = 1 [-0.1]
+ Input 2 [weight2] = 1 [0.5]
+ Input 3 [weight3] = -1 [0.1]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [0]
+ Input 1 [weight1] = -1 [0]
+ Input 2 [weight2] = -1 [0.6]
+ Input 3 [weight3] = 1 [0]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 4 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [0.1]
+ Input 1 [weight1] = -1 [-0.1]
+ Input 2 [weight2] = 1 [0.7]
+ Input 3 [weight3] = -1 [-0.1]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [0.2]
+ Input 1 [weight1] = 1 [0]
+ Input 2 [weight2] = 1 [0.8]
+ Input 3 [weight3] = 1 [0]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [0.1]
+ Input 1 [weight1] = 1 [-0.1]
+ Input 2 [weight2] = 1 [0.7]
+ Input 3 [weight3] = -1 [0.1]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [0]
+ Input 1 [weight1] = -1 [0]
+ Input 2 [weight2] = -1 [0.8]
+ Input 3 [weight3] = 1 [0]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 5 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [0]
+ Input 1 [weight1] = -1 [0]
+ Input 2 [weight2] = 1 [0.8]
+ Input 3 [weight3] = -1 [0]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [0]
+ Input 1 [weight1] = 1 [0]
+ Input 2 [weight2] = 1 [0.8]
+ Input 3 [weight3] = 1 [0]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.1]
+ Input 1 [weight1] = 1 [-0.1]
+ Input 2 [weight2] = 1 [0.7]
+ Input 3 [weight3] = -1 [0.1]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.2]
+ Input 1 [weight1] = -1 [0]
+ Input 2 [weight2] = -1 [0.8]
+ Input 3 [weight3] = 1 [0]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 6 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.1]
+ Input 1 [weight1] = -1 [-0.1]
+ Input 2 [weight2] = 1 [0.9]
+ Input 3 [weight3] = -1 [-0.1]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [0]
+ Input 1 [weight1] = 1 [0]
+ Input 2 [weight2] = 1 [1]
+ Input 3 [weight3] = 1 [0]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.1]
+ Input 1 [weight1] = 1 [-0.1]
+ Input 2 [weight2] = 1 [0.9]
+ Input 3 [weight3] = -1 [0.1]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.1]
+ Input 1 [weight1] = -1 [-0.1]
+ Input 2 [weight2] = -1 [0.9]
+ Input 3 [weight3] = 1 [0.1]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 7 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.1]
+ Input 1 [weight1] = -1 [-0.1]
+ Input 2 [weight2] = 1 [0.9]
+ Input 3 [weight3] = -1 [0.1]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.1]
+ Input 1 [weight1] = 1 [-0.1]
+ Input 2 [weight2] = 1 [0.9]
+ Input 3 [weight3] = 1 [0.1]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.2]
+ Input 1 [weight1] = 1 [-0.2]
+ Input 2 [weight2] = 1 [0.8]
+ Input 3 [weight3] = -1 [0.2]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.3]
+ Input 1 [weight1] = -1 [-0.1]
+ Input 2 [weight2] = -1 [0.9]
+ Input 3 [weight3] = 1 [0.1]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 8 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.2]
+ Input 1 [weight1] = -1 [-0.2]
+ Input 2 [weight2] = 1 [1]
+ Input 3 [weight3] = -1 [0]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.1]
+ Input 1 [weight1] = 1 [-0.1]
+ Input 2 [weight2] = 1 [1.1]
+ Input 3 [weight3] = 1 [0.1]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.2]
+ Input 1 [weight1] = 1 [-0.2]
+ Input 2 [weight2] = 1 [1]
+ Input 3 [weight3] = -1 [0.2]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.2]
+ Input 1 [weight1] = -1 [-0.2]
+ Input 2 [weight2] = -1 [1]
+ Input 3 [weight3] = 1 [0.2]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 9 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.2]
+ Input 1 [weight1] = -1 [-0.2]
+ Input 2 [weight2] = 1 [1]
+ Input 3 [weight3] = -1 [0.2]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.2]
+ Input 1 [weight1] = 1 [-0.2]
+ Input 2 [weight2] = 1 [1]
+ Input 3 [weight3] = 1 [0.2]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.3]
+ Input 1 [weight1] = 1 [-0.3]
+ Input 2 [weight2] = 1 [0.9]
+ Input 3 [weight3] = -1 [0.3]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.4]
+ Input 1 [weight1] = -1 [-0.2]
+ Input 2 [weight2] = -1 [1]
+ Input 3 [weight3] = 1 [0.2]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 10 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.3]
+ Input 1 [weight1] = -1 [-0.3]
+ Input 2 [weight2] = 1 [1.1]
+ Input 3 [weight3] = -1 [0.1]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.2]
+ Input 1 [weight1] = 1 [-0.2]
+ Input 2 [weight2] = 1 [1.2]
+ Input 3 [weight3] = 1 [0.2]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.3]
+ Input 1 [weight1] = 1 [-0.3]
+ Input 2 [weight2] = 1 [1.1]
+ Input 3 [weight3] = -1 [0.3]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.3]
+ Input 1 [weight1] = -1 [-0.3]
+ Input 2 [weight2] = -1 [1.1]
+ Input 3 [weight3] = 1 [0.3]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 11 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.3]
+ Input 1 [weight1] = -1 [-0.3]
+ Input 2 [weight2] = 1 [1.1]
+ Input 3 [weight3] = -1 [0.3]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.3]
+ Input 1 [weight1] = 1 [-0.3]
+ Input 2 [weight2] = 1 [1.1]
+ Input 3 [weight3] = 1 [0.3]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.4]
+ Input 1 [weight1] = 1 [-0.4]
+ Input 2 [weight2] = 1 [1]
+ Input 3 [weight3] = -1 [0.4]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.5]
+ Input 1 [weight1] = -1 [-0.3]
+ Input 2 [weight2] = -1 [1.1]
+ Input 3 [weight3] = 1 [0.3]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 12 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.4]
+ Input 1 [weight1] = -1 [-0.4]
+ Input 2 [weight2] = 1 [1.2]
+ Input 3 [weight3] = -1 [0.2]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.3]
+ Input 1 [weight1] = 1 [-0.3]
+ Input 2 [weight2] = 1 [1.3]
+ Input 3 [weight3] = 1 [0.3]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.4]
+ Input 1 [weight1] = 1 [-0.4]
+ Input 2 [weight2] = 1 [1.2]
+ Input 3 [weight3] = -1 [0.4]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.4]
+ Input 1 [weight1] = -1 [-0.4]
+ Input 2 [weight2] = -1 [1.2]
+ Input 3 [weight3] = 1 [0.4]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 13 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.4]
+ Input 1 [weight1] = -1 [-0.4]
+ Input 2 [weight2] = 1 [1.2]
+ Input 3 [weight3] = -1 [0.4]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.4]
+ Input 1 [weight1] = 1 [-0.4]
+ Input 2 [weight2] = 1 [1.2]
+ Input 3 [weight3] = 1 [0.4]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.5]
+ Input 1 [weight1] = 1 [-0.5]
+ Input 2 [weight2] = 1 [1.1]
+ Input 3 [weight3] = -1 [0.5]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.6]
+ Input 1 [weight1] = -1 [-0.4]
+ Input 2 [weight2] = -1 [1.2]
+ Input 3 [weight3] = 1 [0.4]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 14 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.5]
+ Input 1 [weight1] = -1 [-0.5]
+ Input 2 [weight2] = 1 [1.3]
+ Input 3 [weight3] = -1 [0.3]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.4]
+ Input 1 [weight1] = 1 [-0.4]
+ Input 2 [weight2] = 1 [1.4]
+ Input 3 [weight3] = 1 [0.4]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.5]
+ Input 1 [weight1] = 1 [-0.5]
+ Input 2 [weight2] = 1 [1.3]
+ Input 3 [weight3] = -1 [0.5]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.5]
+ Input 1 [weight1] = -1 [-0.5]
+ Input 2 [weight2] = -1 [1.3]
+ Input 3 [weight3] = 1 [0.5]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 15 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.5]
+ Input 1 [weight1] = -1 [-0.5]
+ Input 2 [weight2] = 1 [1.3]
+ Input 3 [weight3] = -1 [0.5]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.5]
+ Input 1 [weight1] = 1 [-0.5]
+ Input 2 [weight2] = 1 [1.3]
+ Input 3 [weight3] = 1 [0.5]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.6]
+ Input 1 [weight1] = 1 [-0.6]
+ Input 2 [weight2] = 1 [1.2]
+ Input 3 [weight3] = -1 [0.6]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.7]
+ Input 1 [weight1] = -1 [-0.5]
+ Input 2 [weight2] = -1 [1.3]
+ Input 3 [weight3] = 1 [0.5]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 16 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.6]
+ Input 1 [weight1] = -1 [-0.6]
+ Input 2 [weight2] = 1 [1.4]
+ Input 3 [weight3] = -1 [0.4]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.5]
+ Input 1 [weight1] = 1 [-0.5]
+ Input 2 [weight2] = 1 [1.5]
+ Input 3 [weight3] = 1 [0.5]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.6]
+ Input 1 [weight1] = 1 [-0.6]
+ Input 2 [weight2] = 1 [1.4]
+ Input 3 [weight3] = -1 [0.6]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.6]
+ Input 1 [weight1] = -1 [-0.6]
+ Input 2 [weight2] = -1 [1.4]
+ Input 3 [weight3] = 1 [0.6]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 17 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.6]
+ Input 1 [weight1] = -1 [-0.6]
+ Input 2 [weight2] = 1 [1.4]
+ Input 3 [weight3] = -1 [0.6]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.6]
+ Input 1 [weight1] = 1 [-0.6]
+ Input 2 [weight2] = 1 [1.4]
+ Input 3 [weight3] = 1 [0.6]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.7]
+ Input 1 [weight1] = 1 [-0.7]
+ Input 2 [weight2] = 1 [1.3]
+ Input 3 [weight3] = -1 [0.7]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = -1 [-0.6]
+ Input 2 [weight2] = -1 [1.4]
+ Input 3 [weight3] = 1 [0.6]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 18 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.7]
+ Input 1 [weight1] = -1 [-0.7]
+ Input 2 [weight2] = 1 [1.5]
+ Input 3 [weight3] = -1 [0.5]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.6]
+ Input 1 [weight1] = 1 [-0.6]
+ Input 2 [weight2] = 1 [1.6]
+ Input 3 [weight3] = 1 [0.6]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.7]
+ Input 1 [weight1] = 1 [-0.7]
+ Input 2 [weight2] = 1 [1.5]
+ Input 3 [weight3] = -1 [0.7]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.7]
+ Input 1 [weight1] = -1 [-0.7]
+ Input 2 [weight2] = -1 [1.5]
+ Input 3 [weight3] = 1 [0.7]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 19 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.7]
+ Input 1 [weight1] = -1 [-0.7]
+ Input 2 [weight2] = 1 [1.5]
+ Input 3 [weight3] = -1 [0.7]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.7]
+ Input 1 [weight1] = 1 [-0.7]
+ Input 2 [weight2] = 1 [1.5]
+ Input 3 [weight3] = 1 [0.7]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = 1 [-0.8]
+ Input 2 [weight2] = 1 [1.4]
+ Input 3 [weight3] = -1 [0.8]
+Expected output: -1
+Perceptron output: -1
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = -1 [-0.7]
+ Input 2 [weight2] = -1 [1.5]
+ Input 3 [weight3] = 1 [0.7]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 20 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = -1 [-0.8]
+ Input 2 [weight2] = 1 [1.6]
+ Input 3 [weight3] = -1 [0.6]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.7]
+ Input 1 [weight1] = 1 [-0.7]
+ Input 2 [weight2] = 1 [1.7]
+ Input 3 [weight3] = 1 [0.7]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.7]
+ Input 1 [weight1] = 1 [-0.7]
+ Input 2 [weight2] = 1 [1.7]
+ Input 3 [weight3] = -1 [0.7]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.7]
+ Input 1 [weight1] = -1 [-0.7]
+ Input 2 [weight2] = -1 [1.7]
+ Input 3 [weight3] = 1 [0.7]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 21 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.7]
+ Input 1 [weight1] = -1 [-0.7]
+ Input 2 [weight2] = 1 [1.7]
+ Input 3 [weight3] = -1 [0.7]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.7]
+ Input 1 [weight1] = 1 [-0.7]
+ Input 2 [weight2] = 1 [1.7]
+ Input 3 [weight3] = 1 [0.7]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = 1 [-0.8]
+ Input 2 [weight2] = 1 [1.6]
+ Input 3 [weight3] = -1 [0.8]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = -1 [-0.8]
+ Input 2 [weight2] = -1 [1.6]
+ Input 3 [weight3] = 1 [0.8]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 22 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = -1 [-0.8]
+ Input 2 [weight2] = 1 [1.6]
+ Input 3 [weight3] = -1 [0.8]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = 1 [-0.8]
+ Input 2 [weight2] = 1 [1.6]
+ Input 3 [weight3] = 1 [0.8]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = 1 [-0.9]
+ Input 2 [weight2] = 1 [1.5]
+ Input 3 [weight3] = -1 [0.9]
+Expected output: -1
+Perceptron output: -1
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-1]
+ Input 1 [weight1] = -1 [-0.8]
+ Input 2 [weight2] = -1 [1.6]
+ Input 3 [weight3] = 1 [0.8]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 23 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = -1 [-0.9]
+ Input 2 [weight2] = 1 [1.7]
+ Input 3 [weight3] = -1 [0.7]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = 1 [-0.8]
+ Input 2 [weight2] = 1 [1.8]
+ Input 3 [weight3] = 1 [0.8]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = 1 [-0.8]
+ Input 2 [weight2] = 1 [1.8]
+ Input 3 [weight3] = -1 [0.8]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = -1 [-0.8]
+ Input 2 [weight2] = -1 [1.8]
+ Input 3 [weight3] = 1 [0.8]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 24 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = -1 [-0.8]
+ Input 2 [weight2] = 1 [1.8]
+ Input 3 [weight3] = -1 [0.8]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = 1 [-0.8]
+ Input 2 [weight2] = 1 [1.8]
+ Input 3 [weight3] = 1 [0.8]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = 1 [-0.9]
+ Input 2 [weight2] = 1 [1.7]
+ Input 3 [weight3] = -1 [0.9]
+Expected output: -1
+Perceptron output: -1
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = -1 [-0.9]
+ Input 2 [weight2] = -1 [1.7]
+ Input 3 [weight3] = 1 [0.9]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 25 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = -1 [-0.9]
+ Input 2 [weight2] = 1 [1.7]
+ Input 3 [weight3] = -1 [0.9]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = 1 [-0.9]
+ Input 2 [weight2] = 1 [1.7]
+ Input 3 [weight3] = 1 [0.9]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = 1 [-0.9]
+ Input 2 [weight2] = 1 [1.7]
+ Input 3 [weight3] = -1 [0.9]
+Expected output: -1
+Perceptron output: -1
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-1]
+ Input 1 [weight1] = -1 [-0.8]
+ Input 2 [weight2] = -1 [1.8]
+ Input 3 [weight3] = 1 [0.8]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 26 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = -1 [-0.9]
+ Input 2 [weight2] = 1 [1.9]
+ Input 3 [weight3] = -1 [0.7]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = 1 [-0.8]
+ Input 2 [weight2] = 1 [2]
+ Input 3 [weight3] = 1 [0.8]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = 1 [-0.8]
+ Input 2 [weight2] = 1 [2]
+ Input 3 [weight3] = -1 [0.8]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = -1 [-0.8]
+ Input 2 [weight2] = -1 [2]
+ Input 3 [weight3] = 1 [0.8]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 27 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = -1 [-0.8]
+ Input 2 [weight2] = 1 [2]
+ Input 3 [weight3] = -1 [0.8]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.8]
+ Input 1 [weight1] = 1 [-0.8]
+ Input 2 [weight2] = 1 [2]
+ Input 3 [weight3] = 1 [0.8]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = 1 [-0.9]
+ Input 2 [weight2] = 1 [1.9]
+ Input 3 [weight3] = -1 [0.9]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = -1 [-0.9]
+ Input 2 [weight2] = -1 [1.9]
+ Input 3 [weight3] = 1 [0.9]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 28 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = -1 [-0.9]
+ Input 2 [weight2] = 1 [1.9]
+ Input 3 [weight3] = -1 [0.9]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = 1 [-0.9]
+ Input 2 [weight2] = 1 [1.9]
+ Input 3 [weight3] = 1 [0.9]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-1]
+ Input 1 [weight1] = 1 [-1]
+ Input 2 [weight2] = 1 [1.8]
+ Input 3 [weight3] = -1 [1]
+Expected output: -1
+Perceptron output: -1
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-1]
+ Input 1 [weight1] = -1 [-1]
+ Input 2 [weight2] = -1 [1.8]
+ Input 3 [weight3] = 1 [1]
+Expected output: -1
+Perceptron output: 0
+
+
+---> Iteration: 29 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-1]
+ Input 1 [weight1] = -1 [-1]
+ Input 2 [weight2] = 1 [1.8]
+ Input 3 [weight3] = -1 [1]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-1]
+ Input 1 [weight1] = 1 [-1]
+ Input 2 [weight2] = 1 [1.8]
+ Input 3 [weight3] = 1 [1]
+Expected output: 1
+Perceptron output: 0
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-1]
+ Input 1 [weight1] = 1 [-1]
+ Input 2 [weight2] = 1 [1.8]
+ Input 3 [weight3] = -1 [1]
+Expected output: -1
+Perceptron output: -1
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-1.1]
+ Input 1 [weight1] = -1 [-0.9]
+ Input 2 [weight2] = -1 [1.9]
+ Input 3 [weight3] = 1 [0.9]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 30 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-1]
+ Input 1 [weight1] = -1 [-1]
+ Input 2 [weight2] = 1 [2]
+ Input 3 [weight3] = -1 [0.8]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = 1 [-0.9]
+ Input 2 [weight2] = 1 [2.1]
+ Input 3 [weight3] = 1 [0.9]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = 1 [-0.9]
+ Input 2 [weight2] = 1 [2.1]
+ Input 3 [weight3] = -1 [0.9]
+Expected output: -1
+Perceptron output: 0
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = -1 [-0.9]
+ Input 2 [weight2] = -1 [2.1]
+ Input 3 [weight3] = 1 [0.9]
+Expected output: -1
+Perceptron output: -1
+
+
+---> Iteration: 31 <---
+
+ ~Training Data 0~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = -1 [-0.9]
+ Input 2 [weight2] = 1 [2.1]
+ Input 3 [weight3] = -1 [0.9]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 1~
+ Input 0 [weight0] = 1 [-0.9]
+ Input 1 [weight1] = 1 [-0.9]
+ Input 2 [weight2] = 1 [2.1]
+ Input 3 [weight3] = 1 [0.9]
+Expected output: 1
+Perceptron output: 1
+
+ ~Training Data 2~
+ Input 0 [weight0] = 1 [-1]
+ Input 1 [weight1] = 1 [-1]
+ Input 2 [weight2] = 1 [2]
+ Input 3 [weight3] = -1 [1]
+Expected output: -1
+Perceptron output: -1
+
+ ~Training Data 3~
+ Input 0 [weight0] = 1 [-1]
+ Input 1 [weight1] = -1 [-1]
+ Input 2 [weight2] = -1 [2]
+ Input 3 [weight3] = 1 [1]
+Expected output: -1
+Perceptron output: -1
+
+
+Iterations:31
