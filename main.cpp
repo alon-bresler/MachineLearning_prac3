@@ -12,7 +12,7 @@ float learningRate = 0.1f;
 float weight[4] = {0.0f, 0.0f, 0.0f, 0.0f};
 
 //BOOLEANS TO TELL WHICH LEARNING RULE TO USE//
-bool useThreshold = false; 
+bool useThreshold = true;
 
 //Threshold function//
 int thresholdFunction(int x[])
@@ -44,7 +44,8 @@ void printData(int k)
     }
 
     cout << "Expected output: " << trainingData[k][4] << endl;
-    cout << "Perceptron output: " << perceptronsF[k] << endl << endl;
+    if (!useThreshold) {cout << "Perceptron output: " << perceptronsF[k] << endl << endl;}
+    if (useThreshold) {cout << "Perceptron output: " << perceptrons[k] << endl << endl;}
     
 }
 
