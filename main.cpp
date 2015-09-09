@@ -9,9 +9,10 @@ int perceptrons[4] = {0, 0, 0, 0};
 float perceptronsF[4] = {0.0f, 0.0f, 0.0f, 0.0f};
 float threshold = 0.0f;
 float learningRate = 0.1f;
-//random initial weights for inputs//
-//float weight[4] = {rand()/float(RAND_MAX), rand()/float(RAND_MAX), rand()/float(RAND_MAX), rand()/float(RAND_MAX)};
 float weight[4] = {0.0f, 0.0f, 0.0f, 0.0f};
+
+//BOOLEANS TO TELL WHICH LEARNING RULE TO USE//
+bool useThreshold = false; 
 
 //Threshold function//
 int thresholdFunction(int x[])
@@ -43,7 +44,7 @@ void printData(int k)
     }
 
     cout << "Expected output: " << trainingData[k][4] << endl;
-    cout << "Perceptron output: " << perceptrons[k] << endl << endl;
+    cout << "Perceptron output: " << perceptronsF[k] << endl << endl;
     
 }
 
@@ -58,36 +59,72 @@ int main()
 
         iterations++;
         cout << "\n---> Iteration: " << iterations << " <---\n" << endl;
-
-        for (int k = 0; k < 4; k++)
+        
+        //LINEAR ACTIVATION FUNCTION//
+        if (!useThreshold)
         {
-            //adjust weights//
-            for (int i = 0; i < 4; i++)
-            {
-                weight[i] += learningRate * (trainingData[k][4] - perceptrons[k]) * trainingData[k][i];
+            for (int k = 0; k < 4; k++)
+            {              
+                perceptronsF[k] = activationFunction(trainingData[k]);
+
+                //adjust weights//
+                for (int i = 0; i < 4; i++)
+                {
+                    weight[i] += learningRate * (trainingData[k][4] - perceptronsF[k]) * trainingData[k][i];
+                }
+
+                printData(k);
+
             }
 
-            //get linear Perception//
-            //perceptrons[k] = thresholdFunction(trainingData[k]);
-            perceptrons[k] = activationFunction(trainingData[k]);
+            //error checking//
+            for (int i = 0; i < 4; i++)
+            {
+                //BASICLY ROUNDING OFF
+                if (perceptronsF[i] >= 0.999998)
+                {
+                    perceptronsF[i] = 1;
+                }
+                if (perceptronsF[i] <= -0.999998)
+                {
+                    perceptronsF[i] = -1;
+                }
 
-            printData(k);
-
+                //ERROR CHECKING//
+                if (perceptronsF[i] == trainingData[i][4])
+                    error--;
+            }
         }
 
-        //error checking//
-        for (int i = 0; i < 4; i++)
+        //THRESHOLD LEARNING FUNCTION//
+        if (useThreshold)
         {
-            if (perceptrons[i] == trainingData[i][4])
-                error--;
-        }
+            for (int k = 0; k < 4; k++)
+            {              
+                perceptrons[k] = thresholdFunction(trainingData[k]);
 
+                //adjust weights//
+                for (int i = 0; i < 4; i++)
+                {
+                    weight[i] += learningRate * (trainingData[k][4] - perceptrons[k]) * trainingData[k][i];
+                }
+
+                printData(k);
+
+            }
+
+            //error checking//
+            for (int i = 0; i < 4; i++)
+            {
+                if (perceptrons[i] == trainingData[i][4])
+                    error--;
+            }
+        }
         
 
      }
 
     cout << "\nIterations:" << iterations << "\n" << endl;
-    cout << "Done" << endl;
 
     return 0;
 }
