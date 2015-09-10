@@ -1,3 +1,9 @@
+Alon Bresler ( BRSALO001 )
+Machine Learning Prac 3 - Linear Activation Function Results
+
+=============================================================
+=============================================================
+
 ---> Iteration: 1 <---
 
  ~Training Data 0~

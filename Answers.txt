@@ -1,0 +1,12 @@
+Alon Bresler ( BRSALO001 )
+Machine Learning Prac 3
+
+=============================
+=============================
+
+Linear activation function does not achieve an error of 0 in the same number of iterations as the threshold function.
+
+The threshold function achieves an error of 0 faster because it is rounding to 1 or -1 a lot faster than the linear activation function is getting to 1 or -1. 
+
+The linear activation function procedurally increments or decrements the output perceptron until it reached an error of zero.
+Wheras the threshold function, at each iteration the output perceptron is either 1 or -1.
